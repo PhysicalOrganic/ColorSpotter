@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 22 13:23:06 2020
-
-@author: Sarah Moor
-"""
-
-
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-import numpy as np
-import cv2
-from collections import Counter
-from skimage.color import rgb2lab, deltaE_cie76
 import os
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
